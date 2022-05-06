@@ -1,0 +1,79 @@
+*{
+ margin:0;
+ padding:0;
+ font-family: 'Outfit', sans-serif;
+}
+
+body{
+ background-color:hsl(217, 54%, 11%);
+}
+
+.card-frame{
+ display:flex;
+ justify-content:center;
+ align-items:center;
+}
+
+.card{
+ display:flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ align-items:center;
+ justify-content: flex-start;
+ background-color: hsl(216, 50%, 16%);
+ height:40rem;
+ width:20rem;
+ margin:10rem;
+ text-align: left;
+ color: white;
+ border:1.5rem solid hsl(216, 50%, 16%);
+ border-radius:1rem;
+ -webkit-box-shadow: -29px 40px 71px 2px rgba(0,0,0,0.75);
+ -moz-box-shadow: -29px 40px 71px 2px rgba(0,0,0,0.75);
+ box-shadow: -29px 40px 71px 2px rgba(0,0,0,0.75);
+}
+
+img{
+ height: 20rem;
+ width: 20rem;
+ border-radius: 0.5rem;
+ flex-basis: 100%;
+}
+
+h2{
+ font-size:1.5rem;
+ margin-top:0rem;
+ font-weight:600;
+ margin-bottom:0rem;
+ height:1.3rem;
+}
+
+p{
+ color:hsl(215, 51%, 70%);
+ font-size: 1.2rem;
+ font-weight: 300;
+ align-self: center;
+}
+hr{
+ width: 100%;
+ height: 1px;
+ background-color: hsl(215, 32%, 27%);
+ border: none;
+}
+
+.amount {
+ flex-basis: 62%;
+ font-weight: 700;
+ color: hsl(178, 100%, 50%);
+}
+
+.name{
+ color:white;
+}
+
+.creator{
+ height: 3rem;
+ flex-basis: 3rem;
+ border: 1px solid white;
+ border-radius:50%;
+}
