@@ -4,7 +4,9 @@
  font-family: 'Red Hat Display', sans-serif;
 }
 body{
- background-color:hsl(225, 100%, 94%);
+ background-image: url(../images/pattern-background-desktop.svg);
+ background-repeat: no-repeat;
+ background-color: hsl(225, 100%, 94%);
  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -42,7 +44,7 @@ p{
 .plan{
  display:flex;
  justify-content: center;
- padding:0 3rem 0 3rem;
+ padding:0.5rem 3rem 0.5rem 3rem;
  margin:0 2rem 0 2rem;
  align-items: center;
  flex-direction: row; 
@@ -65,7 +67,7 @@ p{
  background-color:hsl(245, 75%, 52%);
  color:white;
  border:none;
- padding:0.2rem 3rem 0.2rem 3rem;
+ padding:0.5rem 3rem 0.5rem 3rem;
  margin:2rem 2rem 0 2rem;
  border-radius: 0.5rem;
  font-weight: 900;
@@ -86,10 +88,4 @@ p{
 img{
  border-top-left-radius: 1rem;
  border-top-right-radius: 1rem;
-}
-a{
- margin-left: auto;
- font-size:0.9rem;
- font-weight: 900;
-
 }
