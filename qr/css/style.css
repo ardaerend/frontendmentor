@@ -6,42 +6,44 @@
  }
  
  body {
-  background-color: hsl(220, 15%, 55%);
+  background-color: hsl(212, 45%, 89%);
  }
  
- .box{
+ .QR-code-box{
   display:flex;
   flex-direction: column;
   justify-content:center;
   align-items: center;
-  margin:15rem 0 15rem 0;
+  margin:10rem 0 10rem 0;
   padding:0;
  }
  
  
  img{
   border-radius: 0.5rem;
-  height: 15rem;
-  width: 15rem;
+  height: 20rem;
+  width: 20rem;
  }
  
- figcaption{
-  height: 10rem;
-  width: 15rem;
+ .qr-text{
+  height: 12rem;
+  width: 20rem;
   text-align: center;
  }
  
  h2{
-  font-size:1.2rem;
+  font-size:1.6rem;
   margin-top:1rem;
+  color:hsl(218, 44%, 22%);
  }
  
- .inside-box{
+ .qr-inside-box{
   background-color:white;
   border:1rem solid white;
   border-radius: 1rem;
  }
  p{
-  font-size:0.9rem;
+  font-size:1.2rem;
   margin-top:1rem;
+  color: hsl(220, 15%, 55%);
  }
